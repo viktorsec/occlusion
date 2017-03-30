@@ -1,0 +1,30 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {slovak}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schéma priamej rozšírenej reality\relax }}{11}{figure.caption.7}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Schéma sprostredkovanej rozšírenej reality\relax }}{11}{figure.caption.8}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Na maľbe je mužova tvár čiastočne zakrytá jablkom. V 3D priestore by bolo jablko oklúderom.}}{12}{figure.caption.9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Projekt má požiarnikom zabezpečiť životne dôležité informácie v podmienkach slabej viditeľnosti \cite {Schonauer13}\relax }}{14}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ukážka aplikácie TranslatAR \cite {Fragoso11}\relax }}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Rozšírená realita v kokpite lietadla Boeing 737-800; Autor: Barend Havenga \cite {Havenga}\relax }}{16}{figure.caption.12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Jednotlivé kroky aplikované pri rozpoznávaní markeru, tak ako sú uvedené v dokumentácií knižnice ARToolKit \cite {ARToolKit-a}\relax }}{20}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Podrobná schéma demo aplikácie\relax }}{25}{figure.caption.14}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Jednoduchá ukážka oklúzie s kockami v našej aplikácii\relax }}{26}{figure.caption.15}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Dvanásťsten načítaný zo súboru OBJ a vykreslený na obrazovku\relax }}{29}{figure.caption.16}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Model sovy vykreslený a umiestnený na marker v našej demo aplikácii\relax }}{30}{figure.caption.17}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Kalibrácia kamery\relax }}{32}{figure.caption.18}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Lepiaca páska z pohľadu skeneru SMISS\relax }}{33}{figure.caption.19}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Mračno bodov, ktoré je výstupom skenovania SMISSom\relax }}{34}{figure.caption.20}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Digitálny model sovy, otvorený v modelovacom programe Blender. Autorom modelu je modelár Tom Cushwa \cite {Cushwa}\relax }}{35}{figure.caption.21}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Fyzický model sovy, ktorý sme vytlačili na 3D tlačiarni\relax }}{36}{figure.caption.22}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Scéna na ktorej demonštrujeme oklúziu. Modrý model sovy je oklúderom.\relax }}{37}{figure.caption.23}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Skutočný a virtuálny objekt sa neprekrývajú, takže k oklúzii nedochádza\relax }}{38}{figure.caption.24}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Natočili sme scénu tak, aby sa objekty prekrývali a nechali sme vykreslovať aj virtuálny model oklúderu, ktorý sa pomocou markeru registruje cez skutočnú sovu.\relax }}{39}{figure.caption.25}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces V predchádzajúcej scéne sme nechali oklúder vykresľovať iba do stencil bufferu a výsledkom je oklúzia s fyzickým objektom.\relax }}{40}{figure.caption.26}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Vykresľovanie viacerých modelov naraz\relax }}{41}{figure.caption.27}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Spoluzakladateľ Google, Sergej Brin demonštruje Google Glass; autor: Kimihiro Hoshino\relax }}{43}{figure.caption.28}

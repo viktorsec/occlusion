@@ -1,0 +1,1440 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Alahi12}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Alahi}{A.}%
+     {Alexandre}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ortiz}{O.}%
+     {Raphael}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vandergheynst}{V.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Ieee}%
+  }
+  \strng{namehash}{AAORVP1}
+  \strng{fullhash}{AAORVP1}
+  \field{shorthand}{Alahi12}
+  \field{label}{Alahi12}
+  \field{sortinit}{A}
+  \field{booktitle}{Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on}
+  \field{pages}{510\bibrangedash 517}
+  \field{title}{Freak: Fast retina keypoint}
+  \field{year}{2012}
+\endentry
+
+\entry{ARToolKit-a}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Looser}{L.}%
+     {Julian}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LJ1}
+  \strng{fullhash}{LJ1}
+  \field{shorthand}{ARToolKit-a}
+  \field{label}{ARToolKit-a}
+  \field{sortinit}{A}
+  \field{howpublished}{\url{http://www.hitl.washington.edu/artoolkit/documentation/vision.htm}}
+  \field{title}{ARToolKit Documentation {@ONLINE}}
+  \field{year}{2004}
+\endentry
+
+\entry{ARToolKit-b}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {ARToolKit}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{shorthand}{ARToolKit-b}
+  \field{label}{ARToolKit-b}
+  \field{sortinit}{A}
+  \field{howpublished}{\url{http://www.hitl.washington.edu/artoolkit/}}
+  \field{title}{Webová stránka ARToolKit {@ONLINE}}
+  \field{year}{2004}
+\endentry
+
+\entry{ArUco}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {ArUco}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A2}
+  \strng{fullhash}{A2}
+  \field{shorthand}{ArUco}
+  \field{label}{ArUco}
+  \field{sortinit}{A}
+  \field{howpublished}{\url{http://www.uco.es/investiga/grupos/ava/node/26}}
+  \field{title}{ArUco library {@ONLINE}}
+  \field{year}{2014}
+\endentry
+
+\entry{Azuma01}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Azuma}{A.}%
+     {Ronald}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baillot}{B.}%
+     {Yohan}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Behringer}{B.}%
+     {Reinhold}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Feiner}{F.}%
+     {Steven}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Julier}{J.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {MacIntyre}{M.}%
+     {Blair}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{AR+1}
+  \strng{fullhash}{ARBYBRFSJSMB1}
+  \field{shorthand}{Azuma01}
+  \field{label}{Azuma01}
+  \field{sortinit}{A}
+  \field{number}{6}
+  \field{pages}{34\bibrangedash 47}
+  \field{title}{Recent advances in augmented reality}
+  \field{volume}{21}
+  \field{journaltitle}{Computer Graphics and Applications, IEEE}
+  \field{year}{2001}
+\endentry
+
+\entry{Azuma97}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Azuma}{A.}%
+     {Ronald~T}{R.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT Press}%
+  }
+  \strng{namehash}{ART+1}
+  \strng{fullhash}{ART+1}
+  \field{shorthand}{Azuma97}
+  \field{label}{Azuma97}
+  \field{sortinit}{A}
+  \field{number}{4}
+  \field{pages}{355\bibrangedash 385}
+  \field{title}{A survey of augmented reality}
+  \field{volume}{6}
+  \field{journaltitle}{Presence}
+  \field{year}{1997}
+\endentry
+
+\entry{Bay06}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bay}{B.}%
+     {Herbert}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tuytelaars}{T.}%
+     {Tinne}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Van~Gool}{V.~G.}%
+     {Luc}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{BHTTVGL1}
+  \strng{fullhash}{BHTTVGL1}
+  \field{shorthand}{Bay06}
+  \field{label}{Bay06}
+  \field{sortinit}{B}
+  \field{booktitle}{Computer vision--ECCV 2006}
+  \field{pages}{404\bibrangedash 417}
+  \field{title}{Surf: Speeded up robust features}
+  \field{year}{2006}
+\endentry
+
+\entry{Bimber05}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bimber}{B.}%
+     {Oliver}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raskar}{R.}%
+     {Ramesh}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {AK Peters Wellesley, MA}%
+  }
+  \strng{namehash}{BORR1}
+  \strng{fullhash}{BORR1}
+  \field{shorthand}{Bimber05}
+  \field{label}{Bimber05}
+  \field{sortinit}{B}
+  \field{title}{Spatial augmented reality: merging real and virtual worlds}
+  \field{volume}{6}
+  \field{year}{2005}
+\endentry
+
+\entry{Calonder10}{incollection}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Calonder}{C.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lepetit}{L.}%
+     {Vincent}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strecha}{S.}%
+     {Christoph}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fua}{F.}%
+     {Pascal}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{CM+1}
+  \strng{fullhash}{CMLVSCFP1}
+  \field{shorthand}{Calonder10}
+  \field{label}{Calonder10}
+  \field{sortinit}{C}
+  \field{booktitle}{Computer Vision--ECCV 2010}
+  \field{pages}{778\bibrangedash 792}
+  \field{title}{Brief: Binary robust independent elementary features}
+  \field{year}{2010}
+\endentry
+
+\entry{Collada}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Group}{G.}%
+     {Khronos}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GK1}
+  \strng{fullhash}{GK1}
+  \field{shorthand}{Collada}
+  \field{label}{Collada}
+  \field{sortinit}{C}
+  \field{howpublished}{\url{http://www.khronos.org/collada}}
+  \field{title}{3D Asset Exchange Schema {@ONLINE}}
+  \field{year}{2015}
+\endentry
+
+\entry{Cushwa}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cushwa}{C.}%
+     {Tom}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CT1}
+  \strng{fullhash}{CT1}
+  \field{shorthand}{Cushwa}
+  \field{label}{Cushwa}
+  \field{sortinit}{C}
+  \field{howpublished}{\url{http://www.thingiverse.com/thing:18218}}
+  \field{title}{Owl statue {@ONLINE}}
+  \field{year}{2012}
+\endentry
+
+\entry{Dobelle00}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dobelle}{D.}%
+     {Wm~H}{W.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {LWW}%
+  }
+  \strng{namehash}{DWH1}
+  \strng{fullhash}{DWH1}
+  \field{shorthand}{Dobelle00}
+  \field{label}{Dobelle00}
+  \field{sortinit}{D}
+  \field{number}{1}
+  \field{pages}{3\bibrangedash 9}
+  \field{title}{Artificial vision for the blind by connecting a television
+  camera to the visual cortex}
+  \field{volume}{46}
+  \field{journaltitle}{ASAIO journal}
+  \field{year}{2000}
+\endentry
+
+\entry{Eyeborg}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bowen}{B.}%
+     {Phill}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BP1}
+  \strng{fullhash}{BP1}
+  \field{shorthand}{Eyeborg}
+  \field{label}{Eyeborg}
+  \field{sortinit}{E}
+  \field{howpublished}{\url{http://eyeborgproject.com/}}
+  \field{title}{Eyeborg Project {@ONLINE}}
+  \field{year}{2015}
+\endentry
+
+\entry{Fragoso11}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Fragoso}{F.}%
+     {Victor}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gauglitz}{G.}%
+     {Steffen}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zamora}{Z.}%
+     {Shane}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kleban}{K.}%
+     {Jim}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Turk}{T.}%
+     {Matthew}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{FV+1}
+  \strng{fullhash}{FVGSZSKJTM1}
+  \field{shorthand}{Fragoso11}
+  \field{label}{Fragoso11}
+  \field{sortinit}{F}
+  \field{booktitle}{Applications of Computer Vision (WACV), 2011 IEEE Workshop
+  on}
+  \field{pages}{497\bibrangedash 502}
+  \field{title}{Translatar: A mobile augmented reality translator}
+  \field{year}{2011}
+\endentry
+
+\entry{Google14-a}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Google}{G.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{G1}
+  \strng{fullhash}{G1}
+  \field{shorthand}{Google14-a}
+  \field{label}{Google14-a}
+  \field{sortinit}{G}
+  \field{howpublished}{\url{https://www.youtube.com/watch?v=QPbZy2wrTGk}}
+  \field{title}{Explorer Story: Patrick Jackson (through Google Glass)
+  {@ONLINE}}
+  \field{year}{2014}
+\endentry
+
+\entry{Google14-b}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Google}{G.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{G1}
+  \strng{fullhash}{G1}
+  \field{shorthand}{Google14-b}
+  \field{label}{Google14-b}
+  \field{sortinit}{G}
+  \field{howpublished}{\url{https://www.google.com/glass/start/}}
+  \field{title}{Project Glass {@ONLINE}}
+  \field{year}{2014}
+\endentry
+
+\entry{Gross14}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gross}{G.}%
+     {Anisse}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GA1}
+  \strng{fullhash}{GA1}
+  \field{shorthand}{Gross14}
+  \field{label}{Gross14}
+  \field{sortinit}{G}
+  \field{howpublished}{\url{http://www.newyorker.com/currency-tag/whats-the-problem-with-google-glass}}
+  \field{title}{What’s the Problem with Google Glass? {@ONLINE}}
+  \field{year}{2014}
+\endentry
+
+\entry{Hartley03}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hartley}{H.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zisserman}{Z.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge university press}%
+  }
+  \strng{namehash}{HRZA1}
+  \strng{fullhash}{HRZA1}
+  \field{shorthand}{Hartley03}
+  \field{label}{Hartley03}
+  \field{sortinit}{H}
+  \field{title}{Multiple view geometry in computer vision}
+  \field{year}{2003}
+\endentry
+
+\entry{Havenga}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Havenga}{H.}%
+     {Barend}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HB1}
+  \strng{fullhash}{HB1}
+  \field{shorthand}{Havenga}
+  \field{label}{Havenga}
+  \field{sortinit}{H}
+  \field{howpublished}{\url{http://www.reddit.com/r/pics/comments/lplfb/hud_on_a_boeing_737800}}
+  \field{title}{HUD on a Boeing 737-800 {@ONLINE}}
+  \field{year}{2012}
+\endentry
+
+\entry{Honan13}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Honan}{H.}%
+     {Mat}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HM1}
+  \strng{fullhash}{HM1}
+  \field{shorthand}{Honan13}
+  \field{label}{Honan13}
+  \field{sortinit}{H}
+  \field{howpublished}{\url{http://www.wired.com/2013/12/glasshole/}}
+  \field{title}{{@ONLINE}}
+\endentry
+
+\entry{Ismert12}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ismert}{I.}%
+     {Ryan}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{IR1}
+  \strng{fullhash}{IR1}
+  \field{shorthand}{Ismert12}
+  \field{label}{Ismert12}
+  \field{sortinit}{I}
+  \field{howpublished}{\url{http://strataconf.com/strata2012/public/schedule/detail/22627}}
+  \field{title}{Rich Sports Data and Augmented Reality {@ONLINE}}
+  \field{year}{2012}
+\endentry
+
+\entry{Julier00}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Yohan}{Y.}%
+     {Simon~Julier}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Julier}{J.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baillot}{B.}%
+     {Yohan}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lanzagorta}{L.}%
+     {Marco}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brown}{B.}%
+     {Dennis}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosenblum}{R.}%
+     {Lawrence}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Citeseer}%
+  }
+  \strng{namehash}{YSJ+1}
+  \strng{fullhash}{YSJJSBYLMBDRL1}
+  \field{shorthand}{Julier00}
+  \field{label}{Julier00}
+  \field{sortinit}{J}
+  \field{booktitle}{In NATO Symposium on Information Processing Techniques for
+  Military Systems}
+  \field{title}{Bars: Battlefield augmented reality system}
+  \field{year}{2000}
+\endentry
+
+\entry{Kato99}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kato}{K.}%
+     {Hirokazu}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Billinghurst}{B.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{KHBM1}
+  \strng{fullhash}{KHBM1}
+  \field{shorthand}{Kato99}
+  \field{label}{Kato99}
+  \field{sortinit}{K}
+  \field{booktitle}{Augmented Reality, 1999.(IWAR'99) Proceedings. 2nd IEEE and
+  ACM International Workshop on}
+  \field{pages}{85\bibrangedash 94}
+  \field{title}{Marker tracking and hmd calibration for a video-based augmented
+  reality conferencing system}
+  \field{year}{1999}
+\endentry
+
+\entry{Kovacovsky12-a}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kovačovský}{K.}%
+     {Tomáš}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KT1}
+  \strng{fullhash}{KT1}
+  \field{shorthand}{Kovacovsky12-a}
+  \field{label}{Kovacovsky12-a}
+  \field{sortinit}{K}
+  \field{title}{Scalable multifunctional indoor scanning system}
+  \list{institution}{1}{%
+    {Citeseer}%
+  }
+  \field{type}{phdthesis}
+  \field{year}{2012}
+\endentry
+
+\entry{Kovacovsky12-b}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kovačovský}{K.}%
+     {Tomáš}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KT1}
+  \strng{fullhash}{KT1}
+  \field{shorthand}{Kovacovsky12-b}
+  \field{label}{Kovacovsky12-b}
+  \field{sortinit}{K}
+  \field{title}{HDR SMISS--Fast High Dynamic Range 3D Scanner}
+\endentry
+
+\entry{Kovacovsky13}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {UK}{U.}%
+     {FMFI}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{UF1}
+  \strng{fullhash}{UF1}
+  \field{shorthand}{Kovacovsky13}
+  \field{label}{Kovacovsky13}
+  \field{sortinit}{K}
+  \field{howpublished}{\url{https://www.youtube.com/watch?v=TWlhbInC7vc}}
+  \field{title}{Mgr. Tomáš KOVAČOVSKÝ, 3D scanner SMISS {@ONLINE}}
+\endentry
+
+\entry{LayarAR}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {AR}{A.}%
+     {Layar}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AL1}
+  \strng{fullhash}{AL1}
+  \field{shorthand}{LayarAR}
+  \field{label}{LayarAR}
+  \field{sortinit}{L}
+  \field{howpublished}{\url{https://www.youtube.com/watch?v=rBPmG5mqWfI}}
+  \field{title}{Layar Augmented Reality for Google Glass {@ONLINE}}
+  \field{year}{2014}
+\endentry
+
+\entry{Leutenegger11}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Leutenegger}{L.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chli}{C.}%
+     {Margarita}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Siegwart}{S.}%
+     {Roland~Yves}{R.~Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{LSCMSRY1}
+  \strng{fullhash}{LSCMSRY1}
+  \field{shorthand}{Leutenegger11}
+  \field{label}{Leutenegger11}
+  \field{sortinit}{L}
+  \field{booktitle}{Computer Vision (ICCV), 2011 IEEE International Conference
+  on}
+  \field{pages}{2548\bibrangedash 2555}
+  \field{title}{BRISK: Binary robust invariant scalable keypoints}
+  \field{year}{2011}
+\endentry
+
+\entry{Livingston02}{report}{}
+  \true{moreauthor}
+  \name{author}{8}{}{%
+    {{}%
+     {Livingston}{L.}%
+     {Mark~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosenblum}{R.}%
+     {Lawrence~J}{L.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Julier}{J.}%
+     {Simon~J}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brown}{B.}%
+     {Dennis}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baillot}{B.}%
+     {Yohan}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Swan}{S.}%
+     {II}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gabbard}{G.}%
+     {Joseph~L}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hix}{H.}%
+     {Deborah}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LMA+1}
+  \strng{fullhash}{LMARLJJSJBDBYSIGJLHD+1}
+  \field{shorthand}{Livingston02}
+  \field{label}{Livingston02}
+  \field{sortinit}{L}
+  \field{title}{An augmented reality system for military operations in urban
+  terrain}
+  \list{institution}{1}{%
+    {DTIC Document}%
+  }
+  \field{type}{techreport}
+  \field{year}{2002}
+\endentry
+
+\entry{Livingston11}{incollection}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Livingston}{L.}%
+     {Mark~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosenblum}{R.}%
+     {Lawrence~J}{L.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brown}{B.}%
+     {Dennis~G}{D.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmidt}{S.}%
+     {Gregory~S}{G.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Julier}{J.}%
+     {Simon~J}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baillot}{B.}%
+     {Yohan}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Swan~II}{S.~I.}%
+     {J~Edward}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ai}{A.}%
+     {Zhuming}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maassel}{M.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{LMA+1}
+  \strng{fullhash}{LMARLJBDGSGSJSJBYSIJEAZMP1}
+  \field{shorthand}{Livingston11}
+  \field{label}{Livingston11}
+  \field{sortinit}{L}
+  \field{booktitle}{Handbook of augmented reality}
+  \field{pages}{671\bibrangedash 706}
+  \field{title}{Military applications of augmented reality}
+  \field{year}{2011}
+\endentry
+
+\entry{Lowe99}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lowe}{L.}%
+     {David~G}{D.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Ieee}%
+  }
+  \strng{namehash}{LDG1}
+  \strng{fullhash}{LDG1}
+  \field{shorthand}{Lowe99}
+  \field{label}{Lowe99}
+  \field{sortinit}{L}
+  \field{booktitle}{Computer vision, 1999. The proceedings of the seventh IEEE
+  international conference on}
+  \field{pages}{1150\bibrangedash 1157}
+  \field{title}{Object recognition from local scale-invariant features}
+  \field{volume}{2}
+  \field{year}{1999}
+\endentry
+
+\entry{Marescaux04}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Marescaux}{M.}%
+     {Jacques}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rubino}{R.}%
+     {Francesco}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arenas}{A.}%
+     {Mara}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mutter}{M.}%
+     {Didier}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Soler}{S.}%
+     {Luc}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Medical Association}%
+  }
+  \strng{namehash}{MJ+1}
+  \strng{fullhash}{MJRFAMMDSL1}
+  \field{shorthand}{Marescaux04}
+  \field{label}{Marescaux04}
+  \field{sortinit}{M}
+  \field{number}{18}
+  \field{pages}{2211\bibrangedash 2215}
+  \field{title}{Augmented-reality--assisted laparoscopic adrenalectomy}
+  \field{volume}{292}
+  \field{journaltitle}{Jama}
+  \field{year}{2004}
+\endentry
+
+\entry{Orgonas10}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Orgonáš}{O.}%
+     {Jozef}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{OJ1}
+  \strng{fullhash}{OJ1}
+  \field{shorthand}{Orgonas10}
+  \field{label}{Orgonas10}
+  \field{sortinit}{O}
+  \field{howpublished}{\url{http://www.itnews.sk/spravy/software/2010-01-18/c131299-augmented-reality-realne-na-slovensku-zlate-stranky-pouzivaju-layar}}
+  \field{title}{Augmented reality reálne na Slovensku: Zlaté stránky
+  používajú Layar {@ONLINE}}
+  \field{year}{2010}
+\endentry
+
+\entry{Reiners98}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Reiners}{R.}%
+     {Dirk}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stricker}{S.}%
+     {Didier}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Klinker}{K.}%
+     {Gudrun}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {M{\"u}ller}{M.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RD+1}
+  \strng{fullhash}{RDSDKGMS1}
+  \field{shorthand}{Reiners98}
+  \field{label}{Reiners98}
+  \field{sortinit}{R}
+  \field{number}{1}
+  \field{pages}{31\bibrangedash 46}
+  \field{title}{Augmented reality for construction tasks: Doorlock assembly}
+  \field{volume}{98}
+  \field{journaltitle}{Proc. IEEE and ACM IWAR}
+  \field{year}{1998}
+\endentry
+
+\entry{Schonauer13}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Schonauer}{S.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vonach}{V.}%
+     {Emanuel}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gerstweiler}{G.}%
+     {Georg}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaufmann}{K.}%
+     {Hannes}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \keyw{Real-Time Dense Reconstruction, Thermal Camera, Augmented Reality, Fire
+  Fighter Safety}
+  \strng{namehash}{SC+1}
+  \strng{fullhash}{SCVEGGKH1}
+  \field{shorthand}{Schonauer13}
+  \field{label}{Schonauer13}
+  \field{sortinit}{S}
+  \field{booktitle}{Proceedings of the 4th Augmented Human International
+  Conference {AH '13}}
+  \field{note}{talk: 4th Augmented Human International Conference, Stuttgart;
+  2013-03-07 -- 2013-03-08}
+  \field{title}{3D Building Reconstruction and Thermal Mapping in Fire Brigade
+  Operations}
+  \verb{url}
+  \verb http://publik.tuwien.ac.at/files/PubDat_217501.pdf
+  \endverb
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{2013}
+\endentry
+
+\entry{Sielhorst04}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Sielhorst}{S.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Obst}{O.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Burgkart}{B.}%
+     {Rainer}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Riener}{R.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Navab}{N.}%
+     {Nassir}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ST+1}
+  \strng{fullhash}{STOTBRRRNN1}
+  \field{shorthand}{Sielhorst04}
+  \field{label}{Sielhorst04}
+  \field{sortinit}{S}
+  \field{booktitle}{International Workshop on Augmented Environments for
+  Medical Imaging-MICCAI Satellite Workshop}
+  \field{title}{An augmented reality delivery simulator for medical training}
+  \field{volume}{141}
+  \field{year}{2004}
+\endentry
+
+\entry{Smith97}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Smith}{S.}%
+     {Stephen~M}{S.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brady}{B.}%
+     {J~Michael}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{SSMBJM1}
+  \strng{fullhash}{SSMBJM1}
+  \field{shorthand}{Smith97}
+  \field{label}{Smith97}
+  \field{sortinit}{S}
+  \field{number}{1}
+  \field{pages}{45\bibrangedash 78}
+  \field{title}{SUSAN—a new approach to low level image processing}
+  \field{volume}{23}
+  \field{journaltitle}{International journal of computer vision}
+  \field{year}{1997}
+\endentry
+
+\entry{Sportvision}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sportvision}{S.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{S1}
+  \strng{fullhash}{S1}
+  \field{shorthand}{Sportvision}
+  \field{label}{Sportvision}
+  \field{sortinit}{S}
+  \field{howpublished}{\url{http://www.sportvision.com/}}
+  \field{title}{Webové sídlo Sportvision {@ONLINE}}
+  \field{year}{2015}
+\endentry
+
+\entry{Studierstube-a}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Langlotz}{L.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LT1}
+  \strng{fullhash}{LT1}
+  \field{shorthand}{Studierstube-a}
+  \field{label}{Studierstube-a}
+  \field{sortinit}{S}
+  \field{howpublished}{\url{http://studierstube.icg.tugraz.at/download.php}}
+  \field{title}{Studierstube project {@ONLINE}}
+  \field{year}{2008}
+\endentry
+
+\entry{Studierstube-b}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Langlotz}{L.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LT1}
+  \strng{fullhash}{LT1}
+  \field{shorthand}{Studierstube-b}
+  \field{label}{Studierstube-b}
+  \field{sortinit}{S}
+  \field{howpublished}{\url{http://studierstube.icg.tugraz.at/opentracker/}}
+  \field{title}{Studierstube OpenTracker {@ONLINE}}
+  \field{year}{2008}
+\endentry
+
+\entry{theswiss14}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {theswiss}{t.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{t1}
+  \strng{fullhash}{t1}
+  \field{shorthand}{theswiss14}
+  \field{label}{theswiss14}
+  \field{sortinit}{T}
+  \field{howpublished}{\url{http://www.thingiverse.com/thing:439474}}
+  \field{title}{business card tree {@ONLINE}}
+  \field{year}{2014}
+\endentry
+
+\entry{Tola10}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Tola}{T.}%
+     {Engin}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lepetit}{L.}%
+     {Vincent}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fua}{F.}%
+     {Pascal}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{TELVFP1}
+  \strng{fullhash}{TELVFP1}
+  \field{shorthand}{Tola10}
+  \field{label}{Tola10}
+  \field{sortinit}{T}
+  \field{number}{5}
+  \field{pages}{815\bibrangedash 830}
+  \field{title}{Daisy: An efficient dense descriptor applied to wide-baseline
+  stereo}
+  \field{volume}{32}
+  \field{journaltitle}{Pattern Analysis and Machine Intelligence, IEEE
+  Transactions on}
+  \field{year}{2010}
+\endentry
+
+\entry{Tuzel06}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Tuzel}{T.}%
+     {Oncel}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Porikli}{P.}%
+     {Fatih}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meer}{M.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{TOPFMP1}
+  \strng{fullhash}{TOPFMP1}
+  \field{shorthand}{Tuzel06}
+  \field{label}{Tuzel06}
+  \field{sortinit}{T}
+  \field{booktitle}{Computer Vision--ECCV 2006}
+  \field{pages}{589\bibrangedash 600}
+  \field{title}{Region covariance: A fast descriptor for detection and
+  classification}
+  \field{year}{2006}
+\endentry
+
+\entry{Volosin11}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Vološín}{V.}%
+     {Marek}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VM1}
+  \strng{fullhash}{VM1}
+  \field{shorthand}{Volosin11}
+  \field{label}{Volosin11}
+  \field{sortinit}{V}
+  \field{title}{Rozpoznávanie obrazov v robotike}
+  \list{institution}{1}{%
+    {Technická univerzita v Košiciach}%
+  }
+  \field{type}{mathesis}
+  \field{year}{2011}
+\endentry
+
+\entry{Vuforia}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Qualcomm}{Q.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{Q1}
+  \strng{fullhash}{Q1}
+  \field{shorthand}{Vuforia}
+  \field{label}{Vuforia}
+  \field{sortinit}{V}
+  \field{howpublished}{\url{https://www.qualcomm.com/products/vuforia}}
+  \field{title}{Vuforia library {@ONLINE}}
+  \field{year}{2015}
+\endentry
+
+\entry{Wagner07}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Wagner}{W.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmalstieg}{S.}%
+     {Dieter}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {na}%
+  }
+  \strng{namehash}{WDSD1}
+  \strng{fullhash}{WDSD1}
+  \field{shorthand}{Wagner07}
+  \field{label}{Wagner07}
+  \field{sortinit}{W}
+  \field{title}{Artoolkitplus for pose tracking on mobile devices}
+  \field{year}{2007}
+\endentry
+
+\entry{Wavefront}{manual}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Technologies}{T.}%
+     {Wavefront}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TW1}
+  \strng{fullhash}{TW1}
+  \field{shorthand}{Wavefront}
+  \field{label}{Wavefront}
+  \field{sortinit}{W}
+  \field{howpublished}{\url{http://www.martinreddy.net/gfx/3d/OBJ.spec}}
+  \field{title}{Object file specification {@ONLINE}}
+  \field{year}{1991}
+\endentry
+
+\entry{Web3D}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Consortium}{C.}%
+     {Web3D}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CW1}
+  \strng{fullhash}{CW1}
+  \field{shorthand}{Web3D}
+  \field{label}{Web3D}
+  \field{sortinit}{W}
+  \field{howpublished}{\url{http://www.web3d.org/x3d/what-x3d}}
+  \field{title}{What is X3D {@ONLINE}}
+  \field{year}{2015}
+\endentry
+
+\entry{Webster96}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Webster}{W.}%
+     {Anthony}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Feiner}{F.}%
+     {Steven}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {MacIntyre}{M.}%
+     {Blair}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Massie}{M.}%
+     {William}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krueger}{K.}%
+     {Theodore}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WA+1}
+  \strng{fullhash}{WAFSMBMWKT1}
+  \field{shorthand}{Webster96}
+  \field{label}{Webster96}
+  \field{sortinit}{W}
+  \field{booktitle}{Proc. ASCE Third Congress on Computing in Civil
+  Engineering}
+  \field{pages}{913\bibrangedash 919}
+  \field{title}{Augmented reality in architectural construction, inspection and
+  renovation}
+  \field{year}{1996}
+\endentry
+
+\entry{Zhou08}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Zhou}{Z.}%
+     {Feng}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Duh}{D.}%
+     {Henry Been-Lirn}{H.~B.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Billinghurst}{B.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE Computer Society}%
+  }
+  \strng{namehash}{ZFDHBLBM1}
+  \strng{fullhash}{ZFDHBLBM1}
+  \field{shorthand}{Zhou08}
+  \field{label}{Zhou08}
+  \field{sortinit}{Z}
+  \field{booktitle}{Proceedings of the 7th IEEE/ACM International Symposium on
+  Mixed and Augmented Reality}
+  \field{pages}{193\bibrangedash 202}
+  \field{title}{Trends in augmented reality tracking, interaction and display:
+  A review of ten years of ISMAR}
+  \field{year}{2008}
+\endentry
+
+\lossort
+  \key{ARToolKit-a}
+  \key{ARToolKit-b}
+  \key{Alahi12}
+  \key{ArUco}
+  \key{Azuma01}
+  \key{Azuma97}
+  \key{Bay06}
+  \key{Bimber05}
+  \key{Calonder10}
+  \key{Collada}
+  \key{Cushwa}
+  \key{Dobelle00}
+  \key{Eyeborg}
+  \key{Fragoso11}
+  \key{Google14-a}
+  \key{Google14-b}
+  \key{Gross14}
+  \key{Hartley03}
+  \key{Havenga}
+  \key{Honan13}
+  \key{Ismert12}
+  \key{Julier00}
+  \key{Kato99}
+  \key{Kovacovsky12-a}
+  \key{Kovacovsky12-b}
+  \key{Kovacovsky13}
+  \key{LayarAR}
+  \key{Leutenegger11}
+  \key{Livingston02}
+  \key{Livingston11}
+  \key{Lowe99}
+  \key{Marescaux04}
+  \key{Orgonas10}
+  \key{Reiners98}
+  \key{Schonauer13}
+  \key{Sielhorst04}
+  \key{Smith97}
+  \key{Sportvision}
+  \key{Studierstube-a}
+  \key{Studierstube-b}
+  \key{Tola10}
+  \key{Tuzel06}
+  \key{Volosin11}
+  \key{Vuforia}
+  \key{Wagner07}
+  \key{Wavefront}
+  \key{Web3D}
+  \key{Webster96}
+  \key{Zhou08}
+  \key{theswiss14}
+\endlossort
+
+\endinput

@@ -1,0 +1,48 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {slovak}
+\thispagestyle {empty}
+\contentsline {chapter}{Úvod}{8}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Prehľad problematiky}{9}{chapter.1}
+\contentsline {section}{\numberline {1.1}Definícia rozšírenej reality}{9}{section.1.1}
+\contentsline {section}{\numberline {1.2}Účel}{10}{section.1.2}
+\contentsline {section}{\numberline {1.3}Zariadenia}{11}{section.1.3}
+\contentsline {section}{\numberline {1.4}Definícia oklúzie}{12}{section.1.4}
+\contentsline {chapter}{\numberline {2}Aplikácie}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Medicínske aplikácie}{13}{section.2.1}
+\contentsline {section}{\numberline {2.2}Požiarnici}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}Preklady}{14}{section.2.3}
+\contentsline {section}{\numberline {2.4}Armádne aplikácie}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}Šport}{16}{section.2.5}
+\contentsline {section}{\numberline {2.6}Konštrukcia}{17}{section.2.6}
+\contentsline {chapter}{\numberline {3}Metódy}{18}{chapter.3}
+\contentsline {section}{\numberline {3.1}Rozpoznávanie pomocou markerov}{18}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Algoritmus rozpoznávania markerov}{19}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Rozpoznávanie na základe významných bodov}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Rozpoznávanie algoritmom SIFT}{21}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Rozpoznávanie na základe GPS}{21}{section.3.3}
+\contentsline {section}{\numberline {3.4}Prehľad softvérových knižníc }{22}{section.3.4}
+\contentsline {chapter}{\numberline {4}Implementácia}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Zjednodušená demonštrácia}{24}{section.4.1}
+\contentsline {section}{\numberline {4.2}3D modely}{24}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Formát Wavefront OBJ}{25}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Registrácia scény}{28}{section.4.3}
+\contentsline {section}{\numberline {4.4}Kalibrácia kamery}{29}{section.4.4}
+\contentsline {section}{\numberline {4.5}Príprava oklúderu}{31}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Modelovanie}{32}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}3D skener SMISS}{33}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}3D tlač}{34}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Oklúzia v rozšírenej realite}{35}{section.4.6}
+\contentsline {section}{\numberline {4.7}Výsledky}{37}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Výkon aplikácie}{38}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Možné problémy a nepresnosti}{39}{subsection.4.7.2}
+\contentsline {chapter}{\numberline {5}Budúcnosť rozšírenej reality}{\textit {42}}{chapter.5}
+\contentsline {section}{\numberline {5.1}Nové zariadenia}{\textit {42}}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Google Glass}{43}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Eyeborg}{44}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Uchytenie v bežnom živote}{44}{section.5.2}
+\contentsline {chapter}{Záver}{46}{chapter*.29}
+\contentsline {chapter}{Literatúra}{51}{chapter*.30}
+\vspace {1em}\noindent Príloha A: Marker\par \vspace {-1em}
+\vspace {1em}\noindent Príloha B: Kalibračný vzor\par \vspace {-1em}
+\vspace {1em}\noindent Príloha C: CD so zdrojovým kódom\par \vspace {-1em}

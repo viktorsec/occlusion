@@ -1,0 +1,85 @@
+\chapter{Construction}
+
+\section{Technical notes}
+Part of this thesis is a computer program written in language Java \cite{java}. I chose it because it's concurrent and has built-in data structures and several tools for creating Graphical User Interface (GUI). Programs written in Java are also cross-platform since it runs on virtual machine, which has performance drawbacks over other programming languages.\\
+
+Java contains built in data structures called "Collections", which include HashSet, ArrayList and HashMap used in my project.\\
+
+\section{Combinatorial notes}
+
+While creating frequency sequence from a difference set is trivial, it is not other way around. Binary relation of constructing a difference set is \textbf{injective}, or left-unique, which means no two different frequency sequences will produce the same difference set. It is not \textbf{univalent} (functional or right-unique), because two unequal difference sets produce same frequency sequence. There is in fact, infinite number of such sets. From group theory, if $P$ is a difference set of group $G$ and $g\ \epsilon\ G$  then $P+g = {p+g:p\  \epsilon\ P}$ is also difference set and is called a \textbf{translate} of $P$. \cite[p. 372]{course} % page 372
+\label{univalent}
+ In this case, the group $G$ is equal to group of positive integers $\mathbb{N}$. Therefore, we can always find difference set starting with number 1 and we can easily get infinitely many translates. While number of translates is infinite, it does not cover all difference sets for a frequency sequence. Other sets are made by  reversing the \textbf{Base multiset}  of set of differences $D$. What Base multiset is as well as proof that translations of this "reversed difference sets" with original translations cover every difference sets will be covered in next sections of this thesis. \\
+ 
+ Relation is also not \textbf{left-total} which means that not every frequency sequence produces a difference set. This will be more covered in description of actual algorithm, but most simple and most frequent counterexample would be size based. Given difference set $S$, set of differences $D$ and frequency sequence $\Lambda$ then:
+
+ $$|D| = \Sigma_{i = 1} ^\infty \lambda_i = \frac{|S|(|S|-1)}{2}$$ 
+
+Since $D$ is set of differences of all elements in $S$, it is combination of every 2 elements in $S$ therefore
+$|D| = \dbinom{|S|}{2} = \frac{|S|(|S|-1)}{2}$.\\
+
+Since $\Sigma_{i = 1} ^\infty \lambda_i$ must be equal to combinations of 2, relation is not left total.\\
+
+Lastly, relation of producing d.s. out of f.s. is \textbf{right-total} since for every set you can create frequency sequence.\\
+
+\section{Base of Set of Differences} 
+
+Back into the main problem. How can we create difference set given only the frequency sequence? From previous section we know there is infinitely many of them. Basically, we can pick positive integer be the first (and lowest) element of difference set. Other elements of difference set must be then added to satisfy the conditions that differences of all elements of d.s. are equal to $i$ exactly $\lambda_i$ times. This could be achieved by backtracking, but would be too time consuming. Set of differences grows quadratically with difference set.
+ From all the differences, one group is shown to be more useful then rest of the elements. If we create submultiset $B$ consisting only of differences of adjacent elements of sorted set $S$, we can then construct whole multiset $D$ just by guessing the right order of elements in $B$.  Given that each element of $D$ is difference $d = s_j - s_i \ |\ s_i,s_j \epsilon S;\ i,j \leq |S|;\ i<j$, they can be written as $d = \Sigma_{k = i}^j (s_{k+1} - s_k)$. . If we imagine elements of $B$ as base bricks of the pyramid and we would put other elements of $D$ on top of them in such fashion that element $s_j - s_i$ would be on top of $s_{j-1}- s_i$ and $s_j - s_{i+1}$. 
+For example, for set $S = {1,2,4,7}$, $B$ would be ${1,2,3}$ and other elements of $D$ would be ${3,5,6}$.
+\begin{center}
+\begin{figure}[here]
+ \includegraphics[scale = .75]{pictures/pyramid1.png}
+ \caption{Example of pyramid representation of $d.s $}
+ \label{fig:Pyramid example number 1}
+ \end{figure}
+\end{center}
+
+Notice that the peak of the pyramid is equal to 6 and not 8, since it is not addition of two bricks it lies upon, but rather summation of base blocks below. \\
+
+For better demonstration, let's extend set $S$ with number 14. Then $S = {1,2,4,7,14}$, $B = {1,2,3,7}$, $D = {3,5,10,6,12,13}$.
+\begin{center}
+\begin{figure}[here]
+ \includegraphics[scale = .75]{pictures/pyramid2.png}
+ \caption{Another example of pyramid representation of $d.s $}
+ \label{fig:Pyramid example number 2}
+ \end{figure}
+\end{center}
+
+This feature will help us in recreating original set out of frequency sequence since now we have to guess only the base multiset and it's inner order of elements and we can easily recreate original set. Or, more specifically, an infinite number of sets, since relation of creating a difference set is not \textit{injective}. \\
+
+Now that we have this feature defined, we can easily prove the assumption made in \ref{univalent}. We can construct difference set solely by knowing base. We just have to decide lowest integer of the set. Other elements will then be created by adding elements  form base to them. let $k$ be the lowest integer and $B$ be the base, then elements of difference set would be $\{k,k+b_1,k+b_1+k+b_2,....k+\Sigma_{i=1}^{|B|} k_i\}$. Since non-base elements from set of differences $D$ are sums of elements lying between $b_i$ and $b_j$, where $b_i,\ b_j$ are any elements form $B$ such that $b_j$ is after $b_i$, we can easily see that if $B$ and  $reverse B$ construct the same frequency sequence. If we prove that if two  bases that construct the same frequency sequence must be same or one being reversed list of another, then we will be able to easily create all the difference sets from single Base Sequence.\\
+
+\textbf{Proof:} Since Set of Differences could be defined as $b = {\Sigma_{k = i}^{j} b_k}$ for every $0 \geq i \geq j \ge |B|$, only Base sets that produce such Sets are $B$ and reversed $B$, in which $i \leq j$.
+
+\section{Pyramid algorithm}
+Now let's use Base of Set of Differences in practice. In what I like to call Pyramid algorithm we will use the fact that it is possible to construct difference set solely from it's base. This algorithm is therefore divided into two sections: \textbf{Finding elements of Base Set} and \textbf{Ordering elements of Base Sequence}. First section of algorithm returns unordered multisets of elements. These multisets are subsets of Set of Differences that fulfil conditions required for the $b.s.d$. Second sections then tries to order these multisets in such fashion that they form Base sequence. If any of variations of set form a $b.s.d$, it returns such variation as a result. otherwise algorithms moves to the next candidate. If no variation of any multiset from first section creates $b.s.d$, then the input is not a frequency sequence of difference set and program returns error.\\
+
+Though we can dismiss most of subsets of $Set of differences$ as they doesn't satisfy conditions to be Base of Set of Differences, we are still left with a large number of candidates. Therefore, in the computer program, these sets are processed in parallel.\\
+
+Two sections of algorithm are described in depth below:\\
+
+\subsection{Finding elements of Base Set}
+In this section, the algorithm finds all subsets that match all the criteria for being elements of Base Sequence. These criteria are not sufficient to discard all other sets, so unless we prove that no permutation of this subset is creating a Base Sequence, we could not tell whether found set truly is the set we are looking for. In other words, this section is not finding a result, it just narrows the number of sets second section has to go through.\\
+
+Given Base Set $B'$, the criteria for a Base set are:
+\begin{enumerate}
+\item $\frac{B'(B' + 1)}{2} = |D|$ where $D$ is Set of Differences.  
+\item Every element of $D$ must be either member of $B'$, or must be equal to sum of subset of $B'$
+\item Sum of all elements of $B'$ must be equal to highest element of $D$
+\item $B'$ must contain at least once difference between highest and second highest element of $D$.
+\end{enumerate}
+
+First criterion is self explanatory, since Base Sequence is bottom row of a pyramid and every row has one brick less then the row directly below. Then relationship between number of bricks in bottom row and number of bricks in total is $t = \Sigma_(i = 1)^n = \frac{n(n+1)}{2}$, where $t$ stands for total number of bricks and $n$ for number of bricks in bottom.
+\\
+Second and third criteria are derived from core idea of Base Sequence. Since all other "bricks" of a pyramid are sums of base bricks, then every other element of Set of Differences must be sum of subset of $B'$. And therefore the highest element of $D$ must be sum of $B'$
+\\
+Fourth criterion comes from observation that second highest element of $D$ lies directly beneath the peak of the pyramid. Proof is quite simple since every element of $D$ can be seen as a sum of a segment of Base Sequence. Then of course, highest sum will be the whole segment and the second highest will be whole segment minus the lesser end. Therefore, the difference of highest and second highest element of $D$ not only must be in Base, it also has to be on the edge. This will be used in second section of the algorithm, where order of elements of the Base matters.
+\\
+In actual program, this section is implemented in java function //TODO//, which first creates ArrayList mustBeInBase, which contains such elements that it fulfils criterion 2 and also element fulfilling criterion 4 if not already represented in sequence. It then generates every sorted sequence of elements which may in right order construct desired Base. It uses \textbf{Depth-first search} algorithm to find all subsequences of the Set of Differences with right length and sum, therefore fulfilling all the criteria listed above.
+
+
+ 
+
+\subsection{Ordering elements of Base Sequence}
+ 

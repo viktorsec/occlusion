@@ -1,0 +1,102 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{slovak}
+\usepackage{amsmath, amssymb, amsthm}
+%\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{booktabs}
+%\usepackage{concmath}
+%\usepackage[T1]{fontspec}
+
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{url}
+\usepackage{siunitx} %si units
+\usepackage[left=3.5cm, right=2.0cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+\usepackage[export]{adjustbox}% http://ctan.org/pkg/adjustbox
+
+\usepackage[backend=bibtex, natbib=true, style=alphabetic]{biblatex}
+\addbibresource{literatura.bib}
+
+\usepackage{listings}
+\usepackage{color}
+
+\renewcommand{\lstlistingname}{Ukážka kódu}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{myyellow}{rgb}{1, 1, 0.9}
+
+\usepackage{float}
+\floatstyle{boxed}
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} 
+
+\usepackage[bookmarks, pdftitle={Využitie oklúzie v rozšírenej realite}, pdfauthor={Viktor Seč}, pdfsubject={Bakalárska práca}, pdfkeywords={rozšírená realita, počítačové videnie, rozpoznávanie markerov, oklúzia},hidelinks]{hyperref}
+
+\setlength{\parskip}{1em}
+
+%\include{csprimes}
+\date{\today}
+%\begin{comment}
+\makeatletter
+\renewcommand*\@makechapterhead[1]{%
+  %\vspace*{50\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \huge\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 20\p@
+    \fi
+    \interlinepenalty\@M
+    \Huge \bfseries #1\par\nobreak
+    \vskip 40\p@
+  }}
+
+\makeatother
+%\end{comment}
+
+\usepackage{caption}
+
+\begin{document}
+\pagenumbering{gobble}
+\input{formality}
+\input{podakovanie}
+\input{abstrakt}
+\input{abstract}
+\input{contents}
+
+\pagenumbering{arabic}
+\setcounter{page}{6}
+
+\input{zoznam-obrazkov}
+\input{uvod}
+
+\input{prehlad}
+\input{aplikacie}
+\input{metody}
+\input{implementacia}
+\input{buducnost}
+
+\input{zaver}
+
+%\input{introduction}
+%\input{construction}
+
+
+
+%\bibliography{literatura}
+\printbibliography
+\nocite{*}
+\addcontentsline{toc}{chapter}{Literatúra}
+
+\appendix
+\input{appendix}
+
+\end{document}
